@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+}
+
+.jugador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.xPuntaje{
+    margin-left: 50px;
+}
+
+.oPuntaje{
+    margin-left: 50px;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.O {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.juego {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+
+    cursor: pointer;
+}
+
+button {
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid brown;
+    cursor: pointer;
+}
+
+
+#caja1 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#caja2 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#caja3 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#caja4 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#caja5 {
+    border: 1px solid black;
+}
+
+#caja6 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#caja7 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#caja8 {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#caja9 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
